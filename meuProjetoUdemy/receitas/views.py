@@ -1,3 +1,8 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+def hello(request):
+    return render(request, 'receitas/index.html')
+
+def contato(request):
+    return HttpResponse('Contato: (XX)XXXXX-XXXX')
