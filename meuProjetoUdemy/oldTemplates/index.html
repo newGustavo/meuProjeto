@@ -25,8 +25,12 @@
                 font-size: 25px;
             }
             .fds{
-                border: 1px solid black;
+                border: 3px solid black;
                 border-radius: 25px;
+                width: fit-content;
+                text-align: center;
+                margin: 0 auto;
+                
             }
             a{
                 color: black;
@@ -37,6 +41,10 @@
                 font-size: large;
                 text-align: left;
                 list-style: none;
+                width: fit-content;
+            }
+            footer{
+                padding-top: 400px;
             }
         </style>
     </head>
@@ -47,15 +55,23 @@
         </div>
         <br>
         <li><a href="http://127.0.0.1:8000/"> Pagina Inicial </a></li>
-        <li><a href="http://127.0.0.1:8000/contato"> Contato </a></li>
-        <a href="http://127.0.0.1:8000/"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <li><a href="http://127.0.0.1:8000/receitas/contato"> Contato </a></li>
+        <li><a href="http://127.0.0.1:8000/receitas/sobre"> Sobre </a></li>
+        <li><a href="http://127.0.0.1:8000/teste"> Minha Pagina Teste </a></li>
+        <div>
+            <a href="http://127.0.0.1:8000/"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                  </p></a>
-            <a href="http://127.0.0.1:8000/contato"><p>
+            <a href="http://127.0.0.1:8000/receitas/contato"><p>
                  Atque nihil distinctio est minima at possimus! 
                 </p></a>
-            <a href="http://127.0.0.1:8000/contato"><p>
+            <a href="http://127.0.0.1:8000/receitas/sobre"><p>
                  Laborum ea consectetur distinctio labore ut deserunt iste asperiores,
                   velit animi fuga aut dolores veniam!</p></a>
+        </div>
+        <footer>
+            Esté site foi feito por {{ nome }}
+        </footer>
+            
     </body>
 
 
